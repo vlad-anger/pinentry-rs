@@ -1,0 +1,10 @@
+[package]
+name = "libpinentry"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+libassuan = { path = "../assuan" }
+urlencoding = { workspace = true }
+
+anyhow = { workspace = true }

@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [ "assuan","pinentry", "pinentry-tty", "pinentry-tui"]
+
+[workspace.dependencies]
+anyhow = "1.0.93"
+urlencoding = "2.1.3"

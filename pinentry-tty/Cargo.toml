@@ -1,0 +1,10 @@
+[package]
+name = "pinentry-tty-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libpinentry = { path = "../pinentry" }
+anyhow = { workspace = true }
+urlencoding = { workspace = true }
+termion = "4.0.5"

@@ -1,0 +1,17 @@
+[package]
+name = "pinentry-tui-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libpinentry = { path = "../pinentry" }
+anyhow = { workspace = true }
+urlencoding = { workspace = true }
+
+parking_lot = "0.12.3"
+
+termion = "4.0.5"
+
+ratatui = { git = "https://github.com/vlad-anger/ratatui.git", branch = "fix-termion-backend", features = ["termion"] }
+tui-textarea = { git = "https://github.com/vlad-anger/tui-textarea.git", branch = "ratatui-orig", features = ["termion"] }
+# tui-textarea = { version = "0.7", features = ["termion"] }
