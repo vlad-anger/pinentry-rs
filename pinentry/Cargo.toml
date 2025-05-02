@@ -2,6 +2,13 @@
 name = "libpinentry"
 version = "0.0.1"
 edition = "2021"
+authors = ["vlad-anger"]
+description = """
+Not feature complete GnuPG pinentry lib
+"""
+license = "MIT"
+homepage = "https://github.com/vlad-anger/pinentry-rs/tree/master/pinentry"
+repository = "https://github.com/vlad-anger/pinentry-rs"
 
 [dependencies]
 libassuan = { path = "../assuan" }
