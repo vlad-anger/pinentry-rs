@@ -2,6 +2,13 @@
 name = "libassuan"
 version = "0.0.1"
 edition = "2021"
+authors = ["vlad-anger"]
+description = """
+Not feature complete lib implementing Assuan protocol
+"""
+license = "MIT"
+homepage = "https://github.com/vlad-anger/pinentry-rs/tree/master/assuan"
+repository = "https://github.com/vlad-anger/pinentry-rs"
 
 [dependencies]
 anyhow = { workspace = true }
